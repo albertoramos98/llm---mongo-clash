@@ -1,29 +1,32 @@
 📊 LLM Clash Royale Analyzer
-Este projeto de faculdade utiliza uma LLM (Large Language Model) baseada no GPT4All integrada com MongoDB e Streamlit para criar uma aplicação interativa que analisa dados de batalhas do Clash Royale através da API oficial do jogo.
+Este projeto foi desenvolvido como parte de uma atividade acadêmica, e utiliza uma LLM (Large Language Model) baseada no GPT4All, integrada com MongoDB e Streamlit, para criar uma aplicação interativa que analisa dados de batalhas do Clash Royale, consumindo a API oficial do jogo.
+
+⚠️ Nota: O projeto foi inicialmente desenvolvido e armazenado em ambiente local, por isso o repositório foi carregado através de uma pasta .zip. Essa abordagem foi necessária devido a restrições temporárias de conexão com o Git remoto no ambiente de desenvolvimento utilizado no momento da entrega.
 
 ⚙️ Tecnologias Utilizadas
-GPT4All: Para interpretar perguntas e gerar respostas em linguagem natural com base nos dados coletados.
+GPT4All: Para interpretar comandos em linguagem natural e gerar respostas inteligentes.
 
-MongoDB: Armazena e organiza os dados das batalhas para consulta eficiente.
+MongoDB: Utilizado para armazenamento estruturado dos dados das batalhas.
 
-Streamlit: Interface gráfica simples e funcional para interação com o usuário.
+Streamlit: Interface gráfica leve e rápida para interação com o usuário.
 
-Python: Linguagem base do projeto, usada para integrações, lógica e construção da interface.
+Python: Linguagem principal do projeto, responsável pelas integrações e lógica de aplicação.
 
 🧠 Funcionalidades
-Consulta inteligente de resultados de batalhas por meio de linguagem natural.
+Consulta de dados de batalhas do Clash Royale via linguagem natural.
 
-Visualização de:
+Análise de:
 
 Quantidade de estrelas conquistadas.
 
-Decks vencedores mais frequentes.
+Decks vencedores mais comuns.
 
-Cartas com melhor desempenho.
+Cartas com maior taxa de vitória.
 
-Estatísticas gerais das partidas.
+Visualização interativa dos resultados via Streamlit.
 
-Armazenamento e gerenciamento dos dados em MongoDB para posterior análise.
+Armazenamento e reutilização de dados com MongoDB.
 
 🎯 Objetivo
-O objetivo é demonstrar como uma LLM pode ser aplicada para interpretar dados de uma API externa e apresentar os resultados de forma acessível e inteligente, combinando NLP com análise de dados em tempo real.
+Demonstrar a aplicação de inteligência artificial para interpretar e apresentar informações de forma contextualizada, utilizando dados em tempo real de uma API externa com suporte de uma interface gráfica acessível.
+
